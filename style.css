@@ -15,9 +15,11 @@ body {
 
 }
 
-.header-container {
-  max-width: 750px;
-  margin: auto;
+.header {
+  text-align: right;
+}
+
+.contact-info {
   text-align: right;
 }
 
@@ -34,9 +36,14 @@ h1 {
   padding: 0;
 }
 
+a {
+  color: black;
+}
+
 a:hover {
   text-decoration: none;
 }
+
 
 
 @media (max-width: 1024px) and (min-width: 768px) {
