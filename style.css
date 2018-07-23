@@ -35,6 +35,7 @@ h1 {
   font-size: 72px;
   letter-spacing: -1.6px;
   line-height: 72px;
+  margin: 0 0 16px 0;
 }
 
 p {
@@ -43,15 +44,17 @@ p {
 
 a {
   color: black;
+  transition: 0.3s ease;
+  margin: 0 0 0 16px;
 }
 
 a:hover {
   text-decoration: none;
+  color: #4BB2F2;
 }
 
 .fab {
   font-size: 30px;
-  margin: 0 0 0 16px;
 }
 
 
