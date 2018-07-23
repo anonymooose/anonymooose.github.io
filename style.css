@@ -15,6 +15,12 @@ body {
 
 }
 
+.header-container {
+  max-width: 750px;
+  margin: auto;
+  text-align: right;
+}
+
 h1 {
   font-family: 'butlerregular';
   font-size: 72px;
@@ -25,6 +31,11 @@ h1 {
 .container {
   max-width: 750px;
   margin: auto;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 
@@ -41,11 +52,21 @@ h1 {
 
 @media (max-width: 767px) and (min-width: 426px){
   h1 {
-     font-size: 42px;
-     line-height: 42px;
+     font-size: 64px;
+     line-height: 64px;
   }
   .container {
     padding: 0 16% !important;
   }
 }
 
+@media (max-width: 426px) {
+  h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .container {
+    padding: 0 10% !important;
+  }
+
+}
