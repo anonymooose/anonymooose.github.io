@@ -19,6 +19,7 @@ body {
   max-width: 750px;
   margin: auto;
   padding: 0;
+
 }
 
 .header {
@@ -36,6 +37,10 @@ h1 {
   line-height: 72px;
 }
 
+p {
+  margin: 8px 0;
+}
+
 a {
   color: black;
 }
@@ -44,36 +49,37 @@ a:hover {
   text-decoration: none;
 }
 
+.fab {
+  font-size: 30px;
+  margin: 0 0 0 16px;
+}
 
 
 @media (max-width: 1024px) and (min-width: 768px) {
   .container {
     max-width: 650px
   }
-
   h1{
-    max-width: 650px;
     font-size: 72px;
   }
 }
 
 @media (max-width: 767px) and (min-width: 426px){
+  .container {
+    padding: 0 16% !important;
+  }
   h1 {
      font-size: 64px;
      line-height: 64px;
   }
-  .container {
-    padding: 0 16% !important;
-  }
 }
 
 @media (max-width: 426px) {
+  .container {
+    padding: 0 10%;
+  }
   h1 {
     font-size: 48px;
     line-height: 48px;
   }
-  .container {
-    padding: 0 10% !important;
-  }
-
 }
