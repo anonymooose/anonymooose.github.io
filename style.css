@@ -4,6 +4,16 @@ body {
   letter-spacing: 1.6px;
 }
 
+a {
+  color: black;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #4BB2F2;
+}
+
 @font-face {
     font-family: 'butlerregular';
     src: url('css/fonts/butler_regular-webfont.eot');
@@ -21,7 +31,6 @@ body {
   max-width: 750px;
   margin: auto;
   padding: 0;
-
 }
 
 .header {
@@ -32,6 +41,13 @@ body {
   text-align: right;
 }
 
+.contactme {
+  font-size: 20px;
+}
+
+.headerlinks {
+  margin: 0 0 0 8px;
+}
 
 h1 {
   font-family: 'butlerregular';
@@ -42,23 +58,14 @@ h1 {
 }
 
 p {
-  margin: 8px 0;
+  margin: 0 0 8px 0;
   font-size: 16px;
 }
 
-a {
-  color: black;
-  transition: 0.3s ease;
-  margin: 0 0 0 24px;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #4BB2F2;
-}
 
 .fab {
   font-size: 32px;
+  margin: 0 0 0 24px;
 }
 
 
@@ -74,8 +81,9 @@ a:hover {
 
 @media (max-width: 767px) and (min-width: 426px){
   .container {
-    padding: 0 10% !important;
+    padding: 0 12% !important;
   }
+
   h1 {
      font-size: 60px;
      line-height: 60px;
