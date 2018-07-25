@@ -14,6 +14,19 @@ a:hover {
   color: #4BB2F2;
 }
 
+h1 {
+  font-family: 'butlerregular';
+  font-size: 72px;
+  letter-spacing: -1.6px;
+  line-height: 72px;
+  margin: 0 0 16px 0;
+}
+
+p {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+
 @font-face {
     font-family: 'butlerregular';
     src: url('css/fonts/butler_regular-webfont.eot');
@@ -46,22 +59,9 @@ a:hover {
 }
 
 .headerlinks {
+  font-size: 12px;
   margin: 0 0 0 8px;
 }
-
-h1 {
-  font-family: 'butlerregular';
-  font-size: 72px;
-  letter-spacing: -1.6px;
-  line-height: 72px;
-  margin: 0 0 16px 0;
-}
-
-p {
-  margin: 0 0 8px 0;
-  font-size: 16px;
-}
-
 
 .fab {
   font-size: 32px;
@@ -89,9 +89,13 @@ p {
      line-height: 60px;
   }
 
-  a {
+  .contactme {
+  font-size: 16px;
+  }
+
+  .headerlinks {
     font-size: 12px;
-    margin: 0 0 0 16px;
+    margin: 0 0 0 8px;
   }
 
   p {
@@ -100,6 +104,7 @@ p {
 
   .fab {
   font-size: 28px;
+  margin: 0 0 0 16px;
   }
 }
 
@@ -113,16 +118,21 @@ p {
     line-height: 48px;
   }
 
-  a {
+  .headerlinks {
     font-size: 10px;
-    margin: 0 0 0 8px;
+    margin: 0 0 0 4px;
   }
 
   p {
     font-size: 10px;
   }
 
+  .contactme {
+  font-size: 14px;
+  }
+
   .fab {
   font-size: 24px;
+  margin: 0 0 0 8px;
   }
 }
