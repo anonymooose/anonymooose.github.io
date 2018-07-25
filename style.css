@@ -39,8 +39,18 @@ p {
     font-style: normal;
 
 }
+.nameandphoto {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
-img {
+.name {
+  margin-right: 16px;
+  font-weight: bolder;
+}
+
+.headshot-avatar {
   border-radius: 50%;
   height: 72px;
   widows: 72px;
@@ -54,6 +64,8 @@ img {
 
 .header {
   text-align: right;
+  padding: 12px;
+  border-bottom: 1px solid rgb(220, 220, 220)
 }
 
 .contact-info {
