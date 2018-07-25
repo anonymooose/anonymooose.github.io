@@ -40,6 +40,12 @@ p {
 
 }
 
+img {
+  border-radius: 50%;
+  height: 72px;
+  widows: 72px;
+}
+
 .container {
   max-width: 750px;
   margin: auto;
