@@ -15,7 +15,7 @@ a:hover {
 }
 
 h1 {
-  font-family: 'butlerregular';
+  font-family: 'butlerregular', 'Playfair Display', serif;
   font-size: 72px;
   letter-spacing: -1.6px;
   line-height: 72px;
