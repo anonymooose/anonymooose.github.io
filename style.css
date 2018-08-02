@@ -37,8 +37,12 @@ p {
          url('css/fonts/butler_regular-webfont.svg#butlerregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
+.landing-info {
+  vertical-align: middle;
+}
+
 .nameandphoto {
   display: flex;
   align-items: center;
@@ -57,7 +61,7 @@ p {
 }
 
 .container {
-  max-width: 750px;
+  max-width: 927px;
   margin: auto;
   padding: 0;
 }
